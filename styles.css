@@ -22,6 +22,11 @@ h2{
     border:none;
 }
 
+
+.nav-pills .nav-link{
+    color: black;
+}
+
 .card-menu{
 
     border:none;
@@ -45,4 +50,8 @@ h2{
 .location-button{
 
     color:white;
+}
+
+.contact-header{
+    background-color: red;
 }
