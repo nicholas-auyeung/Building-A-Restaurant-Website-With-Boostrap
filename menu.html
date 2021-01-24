@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+</head>
+<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #F00C0C;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Ming's Diner</a>
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item px-3">
+          <a class="nav-link active navbarlink" aria-current="page" href="index.html">HOME</a>
+        </li>
+        <li class="nav-item px-3">
+          <a class="nav-link active navbarlink" aria-current="page" href="menu.html">MENU</a>
+        </li>
+        <li class="nav-item px-3 navbarlink">
+          <a class="nav-link active" aria-current="page" href="locations.html">LOCATIONS</a>
+        </li>
+        <li class="nav-item px-3 navbarlink">
+          <a class="nav-link active" aria-current="page" href="contact.html">CONTACT</a>
+        </li>
+        <li class="nav-item px-3 navbarlink">
+          <button type="button" class="btn btn-warning">ORDER NOW</button>
+        </li>
+      </ul>
+    </div>
+</nav>
+<body><br/>
+  <div class="container-fluid d-flex align-items-center justify-content-center">
+    <div class="form-group">
+      <ul class="nav nav-pills" role="pilllist">
+        <li class="nav-item">
+          <a class="nav-link active menu" data-toggle="pill" href="#appetizers" role="pill">
+            Appetizers
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link menu" data-toggle="pill" href="#entrees" role="pill">
+            Entrees
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link menu" data-toggle="pill" href="#sides" role="pill">
+            Sides
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link menu" data-toggle="pill" href="#dessert" role="pill">
+            Dessert
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link menu" data-toggle="pill" href="#drinks" role="pill">
+            Drinks
+          </a>
+        </li>
+      </ul><br/>
+      <div class="pill-content">
+        <div id="appetizers" class="pill-pane fade show active" role="tabpanel">
+          <div class="col">
+            <div class="card h-100 card-menu">
+              <img src="https://food.fnr.sndimg.com/content/dam/images/food/fullset/2018/7/23/MW0104_Chicken-Pot-Stickers-with-Dipping-Sauce_s4x3.jpg.rend.hgtvcom.826.620.suffix/1532374569596.jpeg" class="card-img-top card-img-top-menu" alt="postickers">
+              <div class="card-body">
+                <h5 class="card-title">Potstickers</h5>
+                <p class="card-text">Chinese style fried dumpling.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 card-menu">
+              <img src="https://irepo.primecp.com/2016/03/259207/recipe-7206_Large500_ID-1454811.jpg?v=1454811" class="card-img-top card-img-top-menu" alt="green onion pancake">
+              <div class="card-body">
+                <h5 class="card-title">Green onion pancake</h5>
+                <p class="card-text">Fried dough pancake with green onions and a light dipping sauce.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 card-menu">
+              <img src="https://www.seriouseats.com/recipes/images/20110406-chinese-appetizers-egg-roll-13.jpg" class="card-img-top card-img-top-menu" alt="eggrolls">
+              <div class="card-body">
+                <h5 class="card-title">Egg Rolls</h5>
+                <p class="card-text">Fried pork and cabbage egg roll with sweet and sour sauce.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 card-menu">
+              <img src="https://i.ytimg.com/vi/c-96ZxteXeo/maxresdefault.jpg" class="card-img-top card-img-top-menu" alt="steamed bbq pork bun">
+              <div class="card-body">
+                <h5 class="card-title">Steamed BBQ Pork Bun</h5>
+                <p class="card-text">Steamed bun with BBQ pork inside.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="entrees" class="tab-pane fade show active" role="tabpanel">
+          <div class="col">
+            <div class="card h-100 card-menu">
+              <img src="https://www.everydayeasyeats.com/wp-content/uploads/2016/06/Chinese-Fried-Rice-1.jpg" class="card-img-top card-img-top-menu" alt="fried rice">
+              <div class="card-body">
+                <h5 class="card-title">Fried Rice</h5>
+                <p class="card-text">Fried rice with vegtables.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 card-menu">
+              <img src="https://lh3.googleusercontent.com/proxy/9DXEnERvU37rE7TDv7l5YJglDdQP2vi0S3BNoYTl8ugKgvIuSVAY2MzT_AJvRa6TQM-lDtlNrQZTyv712w2msOYwRTegfctJVB-nOPAqqKU9MGjg1JXBtJzO3DHO6EvX0cWhcmnYggSCcg" class="card-img-top card-img-top-menu" alt="chow mein">
+              <div class="card-body">
+                <h5 class="card-title">Chow Mein</h5>
+                <p class="card-text">Stir fried noodles with vegtables</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 card-menu">
+              <img src="https://i.ytimg.com/vi/2H_eOCVwFkA/maxresdefault.jpg" class="card-img-top card-img-top-menu" alt="orange chicken">
+              <div class="card-body">
+                <h5 class="card-title">Orange Chicken</h5>
+                <p class="card-text">Stir fried chicken with a tangy sweet and sour sauce.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 card-menu">
+              <img src="https://img.delicious.com.au/yxtfSpzD/del/2015/10/chinese-steamed-fish-with-ginger-15230-1.jpg" class="card-img-top card-img-top-menu" alt="chinese style steamed fish">
+              <div class="card-body">
+                <h5 class="card-title">Chinese Style Steamed Fish</h5>
+                <p class="card-text">Steamed tilapia doused in a light dark soy sauce.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 card-menu">
+              <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/honey-walnut-shrimp-horizontal-1548093880.png" class="card-img-top card-img-top-menu" alt="honey walnut shrimp">
+              <div class="card-body">
+                <h5 class="card-title">Honey Walnut Shrimp</h5>
+                <p class="card-text">Stir fried shrimp in honey sauce with walnuts.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="sides" class="tab-pane fade show active" role="tabpanel">
+          <div class="col">
+            <div class="card h-100 card-menu">
+              <img src="https://www.everydayeasyeats.com/wp-content/uploads/2016/06/Chinese-Fried-Rice-1.jpg" class="card-img-top card-img-top-menu" alt="fried rice">
+              <div class="card-body">
+                <h5 class="card-title">Fried Rice</h5>
+                <p class="card-text">Fried rice with vegtables.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 card-menu">
+              <img src="https://lh3.googleusercontent.com/proxy/9DXEnERvU37rE7TDv7l5YJglDdQP2vi0S3BNoYTl8ugKgvIuSVAY2MzT_AJvRa6TQM-lDtlNrQZTyv712w2msOYwRTegfctJVB-nOPAqqKU9MGjg1JXBtJzO3DHO6EvX0cWhcmnYggSCcg" class="card-img-top card-img-top-menu" alt="chow mein">
+              <div class="card-body">
+                <h5 class="card-title">Chow Mein</h5>
+                <p class="card-text">Stir fried noodles with vegtables</p>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<footer class="bg-light text-center text-lg-start footer">
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+      © 2021 Copyright:
+      <a class="text-dark" href="#">Kite Technologies</a>
+    </div>
+</footer>
+</html>
