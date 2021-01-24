@@ -36,3 +36,13 @@ h2{
     width: 15%;
     height: 15%;
 }
+
+.location-card{
+    border-color: red;
+    background-color: red;
+}
+
+.location-button{
+
+    color:white;
+}
