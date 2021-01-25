@@ -47,6 +47,7 @@
             <div class="card-body">
               <h5 class="card-title">Potstickers</h5>
               <p class="card-text">Chinese style fried dumpling.</p>
+              Amount: <input type="number" id="potstickeramount" value="0">
             </div>
           </div>
         </div>
@@ -56,6 +57,7 @@
             <div class="card-body">
               <h5 class="card-title">Green onion pancake</h5>
               <p class="card-text">Fried dough pancake with green onions and a light dipping sauce.</p>
+              Amount: <input type="number" id="greenonionamount" value="0">
             </div>
           </div>
         </div>
@@ -65,6 +67,7 @@
             <div class="card-body">
               <h5 class="card-title">Egg Rolls</h5>
               <p class="card-text">Fried pork and cabbage egg roll with sweet and sour sauce.</p>
+              Amount: <input type="number" id="eggrollamount" value="0">
             </div>
           </div>
         </div>
@@ -74,6 +77,7 @@
             <div class="card-body">
               <h5 class="card-title">Steamed BBQ Pork Bun</h5>
               <p class="card-text">Steamed bun with BBQ pork inside.</p>
+              Amount: <input type="number" id="bbqporkamount" value="0">
             </div>
           </div>
         </div>
@@ -85,6 +89,7 @@
             <div class="card-body">
               <h5 class="card-title">Fried Rice</h5>
               <p class="card-text">Fried rice with vegtables.</p>
+              Amount: <input type="number" id="friedriceamount" value="0">
             </div>
           </div>
         </div>
@@ -94,6 +99,7 @@
             <div class="card-body">
               <h5 class="card-title">Chow Mein</h5>
               <p class="card-text">Stir fried noodles with vegtables</p>
+              Amount: <input type="number" id="chowmeinamount" value="0">
             </div>
           </div>
         </div>
@@ -103,6 +109,7 @@
             <div class="card-body">
               <h5 class="card-title">Orange Chicken</h5>
               <p class="card-text">Stir fried chicken with a tangy sweet and sour sauce.</p>
+              Amount: <input type="number" id="orangechickenamount" value="0">
             </div>
           </div>
         </div>
@@ -112,6 +119,7 @@
             <div class="card-body">
               <h5 class="card-title">Chinese Style Steamed Fish</h5>
               <p class="card-text">Steamed tilapia doused in a light dark soy sauce.</p>
+              Amount: <input type="number" id="potstickeramount" value="0">
             </div>
           </div>
         </div>
@@ -121,6 +129,7 @@
             <div class="card-body">
               <h5 class="card-title">Honey Walnut Shrimp</h5>
               <p class="card-text">Stir fried shrimp in honey sauce with walnuts.</p>
+              Amount: <input type="number" id="honeywalnutamount" value="0">
             </div>
           </div>
         </div>
@@ -132,6 +141,7 @@
             <div class="card-body">
               <h5 class="card-title">Chinese Broccoli</h5>
               <p class="card-text">Stir fried chinese broccoli with garlic and oyster sauce.</p>
+              Amount: <input type="number" id="chinesebroccoliamount" value="0">
             </div>
           </div>
         </div>
@@ -141,6 +151,7 @@
             <div class="card-body">
               <h5 class="card-title">Cucumber Salad</h5>
               <p class="card-text">Cucumber salad with chili flakes and a soy sauce and seseme oil dressing.</p>
+              Amount: <input type="number" id="cucumbersaladamount" value="0">
             </div>
           </div>
         </div>
@@ -150,6 +161,7 @@
               <div class="card-body">
                 <h5 class="card-title">Hot and Sour Soup</h5>
                 <p class="card-text">A hot and sour soup.</p>
+                Amount: <input type="number" id="hotsouramount" value="0">
               </div>
           </div>
         </div>
@@ -161,6 +173,7 @@
             <div class="card-body">
               <h5 class="card-title">Mango Pudding</h5>
               <p class="card-text">Mango pudding with condensed milk and mangos.</p>
+              Amount: <input type="number" id="mangopuddingamount" value="0">
             </div>
           </div>
         </div>
@@ -170,6 +183,7 @@
             <div class="card-body">
               <h5 class="card-title">Black seseme roll</h5>
               <p class="card-text">Black seseme paste roll.</p>
+              Amount: <input type="number" id="blacksesameamount" value="0">
             </div>
           </div>
         </div>
@@ -181,12 +195,18 @@
             <div class="card-body">
               <h5 class="card-title">Sprite</h5>
               <p class="card-text"></p>
+              Amount: <input type="number" id="spriteamount" value="0">
             </div>
           </div>
         </div>
       </div>
     </div>
+  </div><br/>
+<div class="container-fluid">
+  <div class="row order-button">
+    <button class="btn btn-warning" onclick="collectorderdata()">Checkout</button>
   </div>
+</div><br/>
 </body>
 <footer class="bg-light text-center text-lg-start footer">
     <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
@@ -194,4 +214,5 @@
       <a class="text-dark" href="#">Kite Technologies</a>
     </div>
 </footer>
+<script src="ordernow.js"></script>
 </html>

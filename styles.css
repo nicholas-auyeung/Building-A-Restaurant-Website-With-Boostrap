@@ -22,8 +22,7 @@ h2{
     border:none;
 }
 
-
-.nav-pills .nav-link{
+.nav-link{
     color: black;
 }
 
@@ -54,4 +53,9 @@ h2{
 
 .contact-header{
     background-color: red;
+}
+
+.order-button{
+    margin-right: 10%;
+    margin-left: 80%;
 }
